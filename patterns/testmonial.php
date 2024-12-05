@@ -10,15 +10,11 @@
 ?>
 
 <section id="testimonials" class="testimonials section">
-
-    <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
-
+    </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="swiper init-swiper">
             <script type="application/json" class="swiper-config">
                 {
@@ -36,7 +32,6 @@
                 }
             </script>
             <div class="swiper-wrapper">
-
                 <div class="swiper-slide">
                     <div class="testimonial-item">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -51,8 +46,7 @@
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                     </div>
-                </div><!-- End testimonial item -->
-
+                </div>
                 <div class="swiper-slide">
                     <div class="testimonial-item">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -67,8 +61,7 @@
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                     </div>
-                </div><!-- End testimonial item -->
-
+                </div>
                 <div class="swiper-slide">
                     <div class="testimonial-item">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -83,8 +76,7 @@
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                     </div>
-                </div><!-- End testimonial item -->
-
+                </div>
                 <div class="swiper-slide">
                     <div class="testimonial-item">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -99,8 +91,7 @@
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                     </div>
-                </div><!-- End testimonial item -->
-
+                </div>
                 <div class="swiper-slide">
                     <div class="testimonial-item">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -115,12 +106,9 @@
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                     </div>
-                </div><!-- End testimonial item -->
-
+                </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
-
     </div>
-
 </section>
