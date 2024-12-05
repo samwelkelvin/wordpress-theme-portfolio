@@ -11,47 +11,47 @@
                     if ($logo) {
 
                         echo '<img loading="prelaod" decoding="async" class="img-fluid" width="150px" src="' . $logo[0] . '" alt="Logo">';
-                   
                     } else {
 
                         echo '<h1 class="sitename">Logo</h1> ';
-
                     }
                 } else {
 
                     echo '<h1 class="sitename">Logo</h1> ';
-
                 }
 
                 ?>
           </a>
-          
           <nav id="navmenu" class="navmenu">
-              <ul>
-                  <li><a href="index.html" class="active">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="resume.html">Resume</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                      <ul>
-                          <li><a href="#">Dropdown 1</a></li>
-                          <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                              <ul>
-                                  <li><a href="#">Deep Dropdown 1</a></li>
-                                  <li><a href="#">Deep Dropdown 2</a></li>
-                                  <li><a href="#">Deep Dropdown 3</a></li>
-                                  <li><a href="#">Deep Dropdown 4</a></li>
-                                  <li><a href="#">Deep Dropdown 5</a></li>
-                              </ul>
-                          </li>
-                          <li><a href="#">Dropdown 2</a></li>
-                          <li><a href="#">Dropdown 3</a></li>
-                          <li><a href="#">Dropdown 4</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="contact.html">Contact</a></li>
-              </ul>
+              <?php
+
+                $defaults = array(
+                    'menu' => '',
+                    'container' => '',
+                    'container_class' => '',
+                    'container_id' => '',
+                    'container_aria_label' => '',
+                    'menu_class' => '',
+                    'menu_id' => '',
+                    'echo' => true,
+                    'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+                    'before' => '',
+                    'after' => '',
+                    'link_before' => '',
+                    'link_after' => '',
+                    'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                    // 'item_spacing'         => 'preserve',
+                    'depth' => 3,
+                    'walker' => new WP_Bootstrap_Navwalker(),
+                    'theme_location' => 'primary',
+                );
+
+                wp_nav_menu($defaults);
+
+                ?>
+
+
+
               <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
 
