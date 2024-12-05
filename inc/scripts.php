@@ -53,15 +53,15 @@ function portfolio_load_scripts()
     
     wp_register_script('portfolio-ao-js', THEME_DIR_URI . '/assets/vendor/aos/aos.js', array('portfolio-validate'), filemtime(get_template_directory() . '/assets/vendor/aos/aos.js'), true);
     
-    wp_register_script('portfolio-waypont', THEME_DIR_URI . '/assets/vendor/waypoints/noframework.waypoints.js', array('portfolio-ao-js'), filemtime(get_template_directory() . '/assets/vendor/waypoints/noframework.waypoints.js'), true);
+    wp_register_script('portfolio-waypoints', THEME_DIR_URI . '/assets/vendor/waypoints/noframework.waypoints.js', array('portfolio-ao-js'), filemtime(get_template_directory() . '/assets/vendor/waypoints/noframework.waypoints.js'), true);
 
-    wp_register_script('portfolio-vanilla', THEME_DIR_URI . '/assets/vendor/purecounter/purecounter_vanilla.js', array('portfolio-waypoint'), filemtime(get_template_directory() . '/assets/vendor/purecounter/purecounter_vanilla.js'), true);
+    wp_register_script('portfolio-vanilla', THEME_DIR_URI . '/assets/vendor/purecounter/purecounter_vanilla.js', array('portfolio-waypoints'), filemtime(get_template_directory() . '/assets/vendor/purecounter/purecounter_vanilla.js'), true);
 
     wp_register_script('portfolio-swipper', THEME_DIR_URI . '/assets/vendor/swiper/swiper-bundle.min.js', array('portfolio-vanilla'), filemtime(get_template_directory() . '/assets/vendor/swiper/swiper-bundle.min.js'), true);
 
     wp_register_script('portfolio-glightbox-js', THEME_DIR_URI . '/assets/vendor/glightbox/js/glightbox.min.js', array('portfolio-swipper'), filemtime(get_template_directory() . '/assets/vendor/glightbox/js/glightbox.min.js'), true);
 
-    wp_register_script('portfolio-pkgd', THEME_DIR_URI . '/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js', array('portfolio-vanilla'), filemtime(get_template_directory() . '/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js'), true);
+    wp_register_script('portfolio-pkgd', THEME_DIR_URI . '/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js', array('portfolio-glightbox-js'), filemtime(get_template_directory() . '/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js'), true);
 
     wp_register_script('portfolio-isotope-js', THEME_DIR_URI . '/assets/vendor/isotope-layout/isotope.pkgd.min.js', array('portfolio-pkgd'), filemtime(get_template_directory() . '/assets/vendor/isotope-layout/isotope.pkgd.min.js'), true);
 
