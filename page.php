@@ -15,7 +15,7 @@ get_header();
                 the_content();
             }
         } else {
-            echo '<h3>No Page data </h3>';
+            echo '<h2>No Page data </h2>';
         }
 
     ?>
