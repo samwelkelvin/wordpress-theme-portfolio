@@ -9,13 +9,13 @@
 
 ?>
 <section id="resume" class="resume section">
-    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+    <div class="container section-title aos-init aos-animate" data-aos_copy="fade-up">
         <h2>Resume</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="100">
                 <h3 class="resume-title">Sumary</h3>
                 <div class="resume-item pb-0">
                     <h4>Brandon Johnson</h4>
@@ -40,7 +40,7 @@
                     <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
                 </div>
             </div>
-            <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-6 aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="200">
                 <h3 class="resume-title">Professional Experience</h3>
                 <div class="resume-item">
                     <h4>Senior graphic design specialist</h4>

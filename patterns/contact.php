@@ -10,32 +10,32 @@
 ?>
 
 <section id="contact" class="contact section">
-    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+    <div class="container section-title aos-init aos-animate" data-aos_copy="fade-up">
         <h2>Contact</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
     </div>
-    <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+    <div class="container aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="100">
 
         <div class="row gy-4">
 
             <div class="col-lg-5">
 
                 <div class="info-wrap">
-                    <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-item d-flex aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="200">
                         <i class="bi bi-geo-alt flex-shrink-0"></i>
                         <div>
                             <h3>Address</h3>
                             <p>A108 Adam Street, New York, NY 535022</p>
                         </div>
                     </div>
-                    <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                    <div class="info-item d-flex aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="300">
                         <i class="bi bi-telephone flex-shrink-0"></i>
                         <div>
                             <h3>Call Us</h3>
                             <p>+1 5589 55488 55</p>
                         </div>
                     </div>
-                    <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                    <div class="info-item d-flex aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="400">
                         <i class="bi bi-envelope flex-shrink-0"></i>
                         <div>
                             <h3>Email Us</h3>
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="col-lg-7">
-                <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="200">
                     <div class="row gy-4">
                         <div class="col-md-6">
                             <label for="name-field" class="pb-2">Your Name</label>

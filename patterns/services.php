@@ -10,13 +10,13 @@
 ?>
 
 <section id="services" class="services section">
-    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+    <div class="container section-title aos-init aos-animate" data-aos_copy="fade-up">
         <h2>Services</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
     </div>
     <div class="container">
         <div class="row gy-4">
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="100">
                 <div class="service-item item-cyan position-relative">
                     <div class="icon">
                         <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +30,7 @@
                     <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="200">
                 <div class="service-item item-orange position-relative">
                     <div class="icon">
                         <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +44,7 @@
                     <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="300">
                 <div class="service-item item-teal position-relative">
                     <div class="icon">
                         <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +58,7 @@
                     <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="400">
                 <div class="service-item item-red position-relative">
                     <div class="icon">
                         <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@
                     <a href="#" class="stretched-link"></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="500">
                 <div class="service-item item-indigo position-relative">
                     <div class="icon">
                         <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@
                     <a href="#" class="stretched-link"></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos_copy="fade-up" data-aos_copy-delay="600">
                 <div class="service-item item-pink position-relative">
                     <div class="icon">
                         <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">

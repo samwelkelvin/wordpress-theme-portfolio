@@ -9,8 +9,8 @@
 
 ?>
 <section id="hero" class="hero section">
-    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-    <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/hero-bg.jpg" alt="" data-aos_copy="fade-in">
+    <div class="container text-center" data-aos_copy="zoom-out" data-aos_copy-delay="100">
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <h2>Freelancer</h2>

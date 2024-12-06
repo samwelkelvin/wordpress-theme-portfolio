@@ -9,11 +9,11 @@
 
 ?>
 <section id="skills" class="skills section">
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title" data-aos_copy="fade-up">
         <h2>Skills</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
     </div>
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container" data-aos_copy="fade-up" data-aos_copy-delay="100">
         <div class="row skills-content skills-animation">
             <div class="col-lg-6">
                 <div class="progress">
