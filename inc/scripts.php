@@ -115,14 +115,13 @@ function portfolio_add_editor_styles()
 
     add_editor_style(THEME_DIR_URI . '/assets/css/main.css');
 
-    wp_register_script('portfolio-bundle', THEME_DIR_URI . '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js', array(), filemtime(get_template_directory() . '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js'), true);
-
-    wp_register_script('portfolio-validate', THEME_DIR_URI . '/assets/vendor/php-email-form/validate.js', array('portfolio-bundle'), filemtime(get_template_directory() . '/assets/vendor/php-email-form/validate.js'), true);
-
-    wp_enqueue_script('portfolio-bundle');
-
-    wp_enqueue_script('portfolio-validate');
-
 }
 
 add_action('after_setup_theme', 'portfolio_add_editor_styles');
+
+
+//add admin js scripts
+add_action('admin_enqueue_scripts', function(){
+    //wp_enqueue_script('aos-admin', THEME_DIR_URI . '/assets/vendor/aos/aos.js',[],1,true);
+   // wp_enqueue_script('main-admin', THEME_DIR_URI . '/assets/js/editor.js', ['aos-admin'], 1, true);
+});
