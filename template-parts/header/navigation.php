@@ -50,16 +50,38 @@
 
                 ?>
 
-
-
               <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
           </nav>
 
           <div class="header-social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+
+              <?php if (get_theme_mod('show_social_media_handles')) { ?>
+
+                  <?php if (get_theme_mod('facebook')) { ?>
+                      <a href="<?php echo get_theme_mod('facebook'); ?>" class="facebook"><i class="bi bi-facebook"></i></a>
+                  <?php } ?>
+
+                  <?php if (get_theme_mod('twitter')) { ?>
+
+                      <a href="<?php echo get_theme_mod('twitter'); ?>" class="twitter"><i class="bi bi-twitter-x"></i></a>
+
+                  <?php } ?>
+
+                  <?php if (get_theme_mod('instagram')) { ?>
+
+                      <a href="<?php echo get_theme_mod('instagram'); ?>" class="instagram"><i class="bi bi-instagram"></i></a>
+
+                  <?php } ?>
+
+                  <?php if (get_theme_mod('linkedin')) { ?>
+
+                      <a href="<?php echo get_theme_mod('linkedin'); ?>" class="linkedin"><i class="bi bi-linkedin"></i></a>
+
+                  <?php } ?>
+
+              <?php } ?>
+
           </div>
 
       </div>
